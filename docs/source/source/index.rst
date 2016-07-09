@@ -6,7 +6,7 @@ Components
 ----------
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 2i
 
     openmw
 
