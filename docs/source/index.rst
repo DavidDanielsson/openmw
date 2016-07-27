@@ -9,6 +9,10 @@ Components
     :maxdepth: 2
 
     openmw
+    main
+    engine
+    todo
+    thoughts
 
 
 Indices and tables
