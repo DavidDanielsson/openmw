@@ -2,11 +2,19 @@
 Welcome to OpenMW's documentation!
 =====================================
 
+Note for any documentation writers
+----------------------------------
+
+Leave a note in :doc:`unfinished` if you start a section and then commit your
+work while it's unfinished, as to not forget that it's unfinished, and also
+opening up the possibility for someone else to finish it.
+
 Folder layout
 ----------
 
 OpenMW is divided into many foldlers. For developers, the most important
 folders are: apps, docs, and files.
+
 
 Apps
 ----
@@ -30,7 +38,7 @@ piece (or pieces) of code that may be used from multiple locations, e.g. OpenMW
 and OpenCS.
 
 Example components are ``to_utf8`` which is used to convert text from some
-encoding into utf8 and ``files`` which keeps track of directory paths in a
+encoding into utf8, and ``files`` which keeps track of directory paths in a
 OS-agnostic manner
 
 * :doc:`bsa`
