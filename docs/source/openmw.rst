@@ -1,16 +1,18 @@
-openmw
+OpenMW
 ======
+
+The actual game
 
 .. toctree::
   :maxdepth: 2
 
   mwbase
 
-.. autodoxygenfile:: engine.hpp
-  :project: openmw
+.. .. autodoxygenfile:: engine.hpp
+..   :project: openmw
 
 Indices and tables
 ==================
 
 * :ref:`genindex`
- * :ref:`search`
+* :ref:`search`
