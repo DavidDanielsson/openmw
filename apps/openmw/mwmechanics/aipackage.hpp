@@ -40,11 +40,12 @@ namespace MWMechanics
                 TypeIdFollow = 3,
                 TypeIdActivate = 4,
 
-                // These 3 are not really handled as Ai Packages in the MW engine
+                // These 4 are not really handled as Ai Packages in the MW engine
                 // For compatibility do *not* return these in the getCurrentAiPackage script function..
                 TypeIdCombat = 5,
                 TypeIdPursue = 6,
-                TypeIdAvoidDoor = 7
+                TypeIdAvoidDoor = 7,
+                TypeIdFace = 8
             };
 
             ///Default constructor
@@ -106,9 +107,6 @@ namespace MWMechanics
             ObstacleCheck mObstacleCheck;
 
             float mTimer;
-
-            // Set to true once package starts actually being executed
-            bool mStarted;
 
             ESM::Pathgrid::Point mPrevDest;
 
