@@ -22,14 +22,14 @@ Each subfolder inside the apps folder contains a separate application (an
 executable file). You can click the name of each application below to go to
 that application's documentation page.
 
-* :doc:`bsatool`
-* :doc:`esmtool`
-* :doc:`essimporter`
-* :doc:`mwiniimporter`
-* :doc:`launcher`
-* :doc:`wizard`
-* :doc:`opencs`
-* :doc:`openmw`
+* :doc:`bsatool/bsatool`
+* :doc:`esmtool/esmtool`
+* :doc:`essimporter/essimporter`
+* :doc:`mwiniimporter/mwiniimporter`
+* :doc:`launcher/launcher`
+* :doc:`wizard/wizard`
+* :doc:`opencs/opencs`
+* :doc:`openmw/openmw`
 
 Components
 ----------
