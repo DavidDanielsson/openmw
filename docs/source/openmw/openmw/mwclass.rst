@@ -11,7 +11,7 @@ only instance) of the class and adds it to the static member variable
 ``Class::sClasses``. When initialization is done, ``Class::sClasses`` contains
 one instance of each class in the mwclass directory, and they can only be
 accessed through the static function ``Class::get(const std::string)``,
-effectively making the class static.
+effectively making the classes static.
 
 The "static" instance of the class is used to retrieve general data about the
 object type, e.g. armor rating, tool tip info, or the inventory icon. No dynamic

@@ -88,8 +88,8 @@ release = version = int(cmake_data[24][1][1].contents), int(cmake_data[25][1][1]
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-# Temporarily ignored to reduce sphinx build time. TODO: Uncomment
-exclude_patterns = ['mwbase.rst']
+# Temporarily ignored to reduce sphinx build time.
+exclude_patterns = []
 
 # The reST default role (used for this markup: `text`) to use for all
 # documents.

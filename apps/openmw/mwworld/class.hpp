@@ -232,7 +232,7 @@ namespace MWWorld
             ///< Return the up sound ID of \a ptr or throw an exception, if class does not support ID retrieval
             /// (default implementation: throw an exception)
 
-            virtual std::string bgetDownSoundId (const ConstPtr& ptr) const;
+            virtual std::string getDownSoundId (const ConstPtr& ptr) const;
             ///< Return the down sound ID of \a ptr or throw an exception, if class does not support ID retrieval
             /// (default implementation: throw an exception)
 
