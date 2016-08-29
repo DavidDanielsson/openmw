@@ -258,6 +258,8 @@ namespace MWRender
 
     RenderingManager::~RenderingManager()
     {
+        // let background loading thread finish before we delete anything else
+        mWorkQueue = NULL;
     }
 
     MWRender::Objects& RenderingManager::getObjects()
@@ -618,7 +620,6 @@ namespace MWRender
         mViewer->advance(mViewer->getFrameStamp()->getSimulationTime());
 
         rttCamera->removeChildren(0, rttCamera->getNumChildren());
-        rttCamera->setGraphicsContext(NULL);
         mRootNode->removeChild(rttCamera);
     }
 

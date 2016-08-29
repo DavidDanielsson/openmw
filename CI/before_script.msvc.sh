@@ -428,11 +428,7 @@ printf "MyGUI 3.2.2... "
 		mv MyGUI-3.2.2-win$BITS MyGUI
 	fi
 
-	MYGUI_SDK="`real_pwd`/MyGUI"
-
-	add_cmake_opts -DMYGUISDK="$MYGUI_SDK" \
-		-DMYGUI_INCLUDE_DIRS="$MYGUI_SDK/include/MYGUI" \
-		-DMYGUI_PREQUEST_FILE="$MYGUI_SDK/include/MYGUI/MyGUI_Prerequest.h"
+	export MYGUI_HOME="`real_pwd`/MyGUI"
 
 	if [ $CONFIGURATION == "Debug" ]; then
 		SUFFIX="_d"
@@ -561,12 +557,9 @@ printf "SDL 2.0.3... "
 		eval 7z x -y SDL2-2.0.3.zip $STRIP
 	fi
 
-	SDL_SDK="`real_pwd`/SDL2-2.0.3"
-	add_cmake_opts -DSDL2_INCLUDE_DIR="$SDL_SDK/include" \
-		-DSDL2MAIN_LIBRARY="$SDL_SDK/lib/x$ARCHSUFFIX/SDL2main.lib" \
-		-DSDL2_LIBRARY_PATH="$SDL_SDK/lib/x$ARCHSUFFIX/SDL2.lib"
+	export SDL2DIR="`real_pwd`/SDL2-2.0.3"
 
-	add_runtime_dlls `pwd`/SDL2-2.0.3/lib/x$ARCHSUFFIX/SDL2.dll
+	add_runtime_dlls $SDL2DIR/lib/x$ARCHSUFFIX/SDL2.dll
 
 	echo Done.
 }
