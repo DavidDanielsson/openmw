@@ -23,3 +23,5 @@ member variable.
 See also
 --------
 :doc:`ptr`
+:doc:`LiveCellRefBase`
+:doc:`LiveCellRef`

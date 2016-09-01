@@ -12,7 +12,7 @@ interfaces are then implemented in one of the other subdirectories
 Subsystems
 ----------
 
-.. toctree:: 
+.. toctree::
    :maxdepth: 2
    :caption: Subsystems
 

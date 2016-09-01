@@ -7,7 +7,9 @@ who is new to C++
 
 Curly brace placement
 ---------------------
-Is correct
+Is correct, but also inconsistent. Sometimes it's placed on the same line as
+the statement, sometimes it's placed on the next line. In a lot of places they
+aren't needed at all, but that could just be a code style decision
 
 Forward declarations
 --------------------

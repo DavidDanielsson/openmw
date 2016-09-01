@@ -45,7 +45,7 @@ OS-agnostic manner
 * :doc:`compiler`
 * :doc:`config`
 * :doc:`contentselector`
-* :doc:`esm`
+* :doc:`../components/esm/index`
 * :doc:`esmterrain`
 * :doc:`fallback`
 * :doc:`files`
