@@ -16,17 +16,17 @@ Subsystems
    :maxdepth: 2
    :caption: Subsystems
 
-  mwclass
-  mwdialogue
-  mwgui
-  mwinput
-  mwmechanics
-  mwphysics
-  mwrender
-  mwscript
-  mwsound
-  mwstate
-  mwworld
+  mwclass/mwclass
+  mwdialogue/mwdialogue
+  mwgui/mwgui
+  mwinput/mwinput
+  mwmechanics/mwmechanics
+  mwphysics/mwphysics
+  mwrender/mwrender
+  mwscript/mwscript
+  mwsound/mwsound
+  mwstate/mwstate
+  mwworld/mwworld
 
 .. .. autodoxygenfile:: engine.hpp
 ..   :project: openmw

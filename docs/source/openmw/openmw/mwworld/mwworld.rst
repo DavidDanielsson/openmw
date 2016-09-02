@@ -8,5 +8,8 @@ contains implementations of game logic where interaction with the world is
 needed; such as activating objects, casting spells, checking line of sight or
 checking if the given object is under water.
 
-How the in-game world is structured
------------------------------------
+See also
+--------
+* :doc:`action`
+* :doc:`world`
+* :doc:`projectilemanager`

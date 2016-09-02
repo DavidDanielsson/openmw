@@ -1,10 +1,3 @@
-MWBase
-======
-
-Contains a collection of base classes (abstract/pure virtual/interface); one
-for each subdirectory of the openmw folder. The only exception being
-:doc:`environment`, which has both declarations and definitions
-
 openmw/mwbase
 =============
 
@@ -37,5 +30,4 @@ openmw/mwbase
 
 .. autodoxygenfile:: mwbase/world.hpp
   :project: openmw
-
 

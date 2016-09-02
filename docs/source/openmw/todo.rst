@@ -19,12 +19,16 @@ components/esm/index.rst
     "flags" in header seems to be unused; is it?
     Save es_format.html or something?
 
-mwworld/world.rst
-    Investigate ESMStore::setUp
+mwworld
+    world.rst
+        Investigate ESMStore::setUp
 
-    Why is movePlayerRecord called? Don't forget to update mwworld/world.rst!
+        Why is movePlayerRecord called? Don't forget to update mwworld/world.rst!
 
-    What is mSwimHeightScale?
+        What is mSwimHeightScale?
 
     Finish ProjectileManager by writing about State, MagicBoltState, and
     ProjectileState (see also section?)
+
+    Write about individual actions (and maybe about how to create a custom
+    action??)
