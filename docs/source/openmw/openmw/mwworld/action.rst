@@ -13,16 +13,19 @@ passed to the function.
 
 Actions in OpenMW
 -----------------
-* :doc:`Opening the alchemy window <actionalchemy>`
-* :doc:`Applying effects to an actor <actionapply>`
-* :doc:`Opening/closing a door <actiondoor>`
-* :doc:`Eating objects (not drinking potions) <actioneat>`
-* :doc:`Equipping items <actionequip>`
-* :doc:`Opening containers (or dead NPCs) <actionopen>`
-* :doc:`Reading a book <actionread>`
-* :doc:`Opening the repair window <actionrepair>`
-* :doc:`Opening the soul gem dialog <actionsoulgem>`
-* :doc:`Picking up items from the game world <actiontake>`
-* :doc:`Talking to NPCs <actiontalk>`
-* :doc:`Teleporting actors <actionteleport>`
-* :doc:`Activating trapped objects  <actiontrap>`
+Each action inherits from ``Action`` and is contained inside its own .hpp/.cpp
+pair in the ``mwworld`` folder
+
+* Opening the alchemy window ``actionalchemy``
+* Applying effects to an actor ``actionapply``
+* Opening/closing a door ``actiondoor``
+* Eating objects (not drinking potions) ``actioneat``
+* Equipping items ``actionequip``
+* Opening containers (or dead NPCs) ``actionopen``
+* Reading a book ``actionread``
+* Opening the repair window ``actionrepair``
+* Opening the soul gem dialog ``actionsoulgem``
+* Picking up items from the game world ``actiontake``
+* Talking to NPCs ``actiontalk``
+* Teleporting actors ``actionteleport``
+* Activating trapped objects ``actiontrap``

@@ -1,7 +1,7 @@
 OpenMW
 ======
 
-The source code for the game itself. main.cpp contains the program's entry
+The source code for the game itself. ``main.cpp`` contains the program's entry
 point, and :doc:`engine` is what takes all of the components and subfolders and
 ties them together to create the OpenMW game.
 
@@ -28,8 +28,9 @@ Subsystems
   mwstate/mwstate
   mwworld/mwworld
 
-.. .. autodoxygenfile:: engine.hpp
-..   :project: openmw
+See also
+========
+:doc:`engine`
 
 Indices and tables
 ==================

@@ -21,7 +21,7 @@ either the ``LiveCellRefBase::mRef``, or the ``LiveCellRefBase::mData``
 member variable.
 
 See also
---------
-:doc:`ptr`
-:doc:`LiveCellRefBase`
-:doc:`LiveCellRef`
+========
+* :doc:`OMW::Engine <../engine>`
+* :doc:`ptr <../mwworld/ptr>`
+* :doc:`LiveCellRef <../mwworld/livecellref>`

@@ -20,6 +20,6 @@ projectile hits a target, ``MWMechanics::projectileHit`` is called.
 Updating projectiles
 --------------------
 
-Projectiles are updated by calling ``ProjectileManager::update(float)``.
+Projectiles are updated by calling ``ProjectileManager::update``.
 Collision is resolved by casting a ray from the projectile's old positions to
 the projectile's new position
