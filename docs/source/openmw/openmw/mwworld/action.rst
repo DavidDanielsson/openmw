@@ -29,3 +29,5 @@ pair in the ``mwworld`` folder
 * Talking to NPCs ``actiontalk``
 * Teleporting actors ``actionteleport``
 * Activating trapped objects ``actiontrap``
+* Null action ``nullaction``
+* Failed action ``failedaction``

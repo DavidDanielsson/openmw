@@ -19,7 +19,8 @@ used for titles, - for subsections, and ^ for subsubsections. See example below
 Multiple titles per document is fine as long as the two titles are unrelated.
 
 A document containing a reference to a different document should contain a "see
-also" section at the bottom linking to the document.
+also" section at the bottom linking to the document, unless the references are
+already in a list like in openmw/mwworld/action.rst
 
 Any references to classes or files should be placed inside backquotes like so:
 \`\`SomeClass\`\` or \`\`SomeFile.hpp\`\`

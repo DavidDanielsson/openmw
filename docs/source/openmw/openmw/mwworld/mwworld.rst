@@ -8,8 +8,33 @@ contains implementations of game logic where interaction with the world is
 needed; such as activating objects, casting spells, checking line of sight or
 checking if the given object is under water.
 
-See also
-========
+Classes
+-------
 * :doc:`action`
-* :doc:`world`
+* :doc:`cellpreloader`
+* :doc:`cellref`
+* :doc:`cellreflist`
+* :doc:`cells`
+* :doc:`cellstore`
+* :doc:`cellvisitors`
+* :doc:`class`
+* :doc:`containerstore`
+* :doc:`contentloader`
+* :doc:`customdata`
+* :doc:`esmloader`
+* :doc:`esmstore`
+* :doc:`globals`
+* :doc:`inventorystore`
+* :doc:`livecellref`
+* :doc:`localscripts`
+* :doc:`manualref`
+* :doc:`player`
 * :doc:`projectilemanager`
+* :doc:`ptr`
+* :doc:`recordcmp`
+* :doc:`refdata`
+* :doc:`scene`
+* :doc:`store`
+* :doc:`timestamp`
+* :doc:`weather`
+* :doc:`worldimp`

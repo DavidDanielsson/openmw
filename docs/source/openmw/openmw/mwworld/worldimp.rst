@@ -21,7 +21,7 @@ be initialized by calling ``ESMStore::setUp()``, and the player record can be
 inserted ??? (check TODO file)
 
 See also
-========
+--------
 * :doc:`Physicsmanager <../mwphysics/physicssystem>`
 * :doc:`Rendering manager <../mwrender/renderingmanager>`
 * :doc:`Projectile manager <projectilemanager>`
