@@ -23,4 +23,6 @@ also" section at the bottom linking to the document, unless the references are
 already in a list like in openmw/mwworld/action.rst
 
 Any references to classes or files should be placed inside backquotes like so:
-\`\`SomeClass\`\` or \`\`SomeFile.hpp\`\`
+\`\`SomeClass\`\` or \`\`SomeFile.hpp\`\`. References to member functions
+should be fully qualified: \`\`SomeClass::someFunction()\`\`, though the
+parameters aren't needed if no overloads exist

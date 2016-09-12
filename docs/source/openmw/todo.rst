@@ -34,3 +34,15 @@ mwworld
     action??)
 
     Finish writing about PreloadItem in cellpreloader.cpp
+
+    Add see also section to mwworld/cellref, link to esm/cellref
+
+    What is the difference between ESM::CellRef, MWWorld::CellRef, and
+    MWWorld::LiveCellRef?
+
+    Finish writing about LiveCellRef
+
+    esmstore.rst
+        Why do some lists need special rules?
+
+        Add link to each ESM record inside esmstore.rst
